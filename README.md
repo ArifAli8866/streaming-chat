@@ -25,6 +25,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
+
 Open http://localhost:3000. The API key is read server-side only, inside
 `src/lib/ai/config.ts`, which is only ever imported by the route handler —
 never by a client component — so it's never sent to the browser.
@@ -84,3 +85,6 @@ never by a client component — so it's never sent to the browser.
 - [ ] Resize to phone width (or open on an actual phone) — input stays
       reachable above the keyboard/home indicator, bubbles wrap instead of
       overflowing.
+
+
+the project is realted to a intership of FlyRank AI
